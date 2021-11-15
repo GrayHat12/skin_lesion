@@ -20,6 +20,7 @@ The 7 classes of skin cancer lesions included in this dataset are:
 [(code)](./analysis.py)
 
 * Age
+
     ![age](./plots/before_balancing/age.png)
 
 * Classes
