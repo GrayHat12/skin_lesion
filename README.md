@@ -21,16 +21,19 @@ The 7 classes of skin cancer lesions included in this dataset are:
 
 * Age
 
-    ![age](./plots/before_balancing/age.png)
+![age](./plots/before_balancing/age.png)
 
 * Classes
-    ![classes](./plots/before_balancing/cell_type.png)
+
+![classes](./plots/before_balancing/cell_type.png)
 
 * Localization
-    ![localization](./plots/before_balancing/localization.png)
+
+![localization](./plots/before_balancing/localization.png)
 
 * Gender
-    ![Gender](./plots/before_balancing/sex.png)
+
+![Gender](./plots/before_balancing/sex.png)
 
 ### Balancing
 
@@ -47,16 +50,20 @@ We balanced data by keeping 1000 images for every class. Upscaled classes with l
 [(code)](./ann_with_overfitting.py)
 
 * Architecture:
-    ![ANN](./plots/ann_with_overfitting_architecture.png)
+
+![ANN](./plots/ann_with_overfitting_architecture.png)
 
 * History:
-    ![ANN](./plots/ann_with_overfitting_history.png)
+
+![ANN](./plots/ann_with_overfitting_history.png)
 
 * Confusion Matrix:
-    ![ANN](./plots/ann_with_overfitting_confusion_matrix.png)
+
+![ANN](./plots/ann_with_overfitting_confusion_matrix.png)
 
 * Fractional Incorrect Misclassifications:
-    ![ANN](./plots/ann_with_overfitting_fractional_incorrect_misclassifications.png)
+
+![ANN](./plots/ann_with_overfitting_fractional_incorrect_misclassifications.png)
 
 
 ### ANN - Type 2
@@ -64,32 +71,40 @@ We balanced data by keeping 1000 images for every class. Upscaled classes with l
 [(code)](./ann_no_overfitting.py)
 
 * Architecture:
-    ![ANN](./plots/ann_no_overfitting_architecture.png)
+
+![ANN](./plots/ann_no_overfitting_architecture.png)
 
 * History:
-    ![ANN](./plots/ann_no_overfitting_history.png)
+
+![ANN](./plots/ann_no_overfitting_history.png)
 
 * Confusion Matrix:
-    ![ANN](./plots/ann_no_overfitting_confusion_matrix.png)
+
+![ANN](./plots/ann_no_overfitting_confusion_matrix.png)
 
 * Fractional Incorrect Misclassifications:
-    ![ANN](./plots/ann_no_overfitting_fractional_incorrect_misclassifications.png)
+
+![ANN](./plots/ann_no_overfitting_fractional_incorrect_misclassifications.png)
 
 ### CNN
 
 [(code)](./cnn.py)
 
 * Architecture:
-    ![CNN](./plots/cnn_architecture.png)
+
+![CNN](./plots/cnn_architecture.png)
 
 * History:
-    ![CNN](./plots/cnn_history.png)
+
+![CNN](./plots/cnn_history.png)
 
 * Confusion Matrix:
-    ![CNN](./plots/cnn_confusion_matrix.png)
+
+![CNN](./plots/cnn_confusion_matrix.png)
 
 * Fractional Incorrect Misclassifications:
-    ![CNN](./plots/cnn_fractional_incorrect_misclassifications.png)
+
+![CNN](./plots/cnn_fractional_incorrect_misclassifications.png)
 
 
 ### Transfer Learning (Mobilenet)
@@ -97,13 +112,17 @@ We balanced data by keeping 1000 images for every class. Upscaled classes with l
 [(code)](./transfer_learning.py)
 
 * Architecture:
-    ![TL](./plots/transfer_learning_architecture.png)
+
+![TL](./plots/transfer_learning_architecture.png)
 
 * History:
-    ![TL](./plots/transfer_learning_history.png)
+
+![TL](./plots/transfer_learning_history.png)
 
 * Confusion Matrix:
-    ![TL](./plots/transfer_learning_confusion_matrix.png)
+
+![TL](./plots/transfer_learning_confusion_matrix.png)
 
 * Fractional Incorrect Misclassifications:
-    ![TL](./plots/transfer_learning_fractional_incorrect_misclassifications.png)
+
+![TL](./plots/transfer_learning_fractional_incorrect_misclassifications.png)
