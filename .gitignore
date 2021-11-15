@@ -1,0 +1,6 @@
+\env
+*.pycache
+\backup
+\base_dir
+\__pycache__
+/HAM10000

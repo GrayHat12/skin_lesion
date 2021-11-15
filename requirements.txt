@@ -1,0 +1,8 @@
+tensorflow
+sklearn
+pandas
+matplotlib
+seaborn
+pydot
+graphviz
+scikit-image
