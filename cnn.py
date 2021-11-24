@@ -27,7 +27,6 @@ def prepare_datasets(test_size, validation_size):
 
     return X_train, X_validation, X_test, y_train, y_validation, y_test
 
-
 def build_model(input_shape):
 
     # create a model
@@ -60,7 +59,6 @@ def build_model(input_shape):
 
     return model
 
-
 def predict(model, X, y):
 
     X = X[np.newaxis, ...]
@@ -71,7 +69,6 @@ def predict(model, X, y):
     predicted_index = np.argmax(prediction, axis=1)  # [3]
 
     print("Predicted Index : {}, Actual Index : {}".format(predicted_index, y))
-
 
 def plot_history(history, name='cnn'):
 
@@ -95,7 +92,6 @@ def plot_history(history, name='cnn'):
     fig.savefig(f'./plots/{name}_history.png')
     plt.show()
 
-
 def plot_confusion_matrix(y_true, y_pred, name='cnn'):
     matrix = confusion_matrix(y_true, y_pred)
 
@@ -108,7 +104,6 @@ def plot_confusion_matrix(y_true, y_pred, name='cnn'):
     fig.show()
     return matrix
 
-
 def plot_fractional_incorrect_misclassifications(confusion_matrix, name='cnn'):
     fig, ax = plt.subplots()
     incorr_fraction = 1 - np.diag(confusion_matrix) / \
@@ -119,7 +114,6 @@ def plot_fractional_incorrect_misclassifications(confusion_matrix, name='cnn'):
 
     fig.savefig(f'./plots/{name}_fractional_incorrect_misclassifications.png')
     fig.show()
-
 
 if __name__ == "__main__":
     # create train, validation and test sets

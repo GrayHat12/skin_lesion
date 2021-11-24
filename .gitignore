@@ -4,3 +4,5 @@
 \base_dir
 \__pycache__
 /HAM10000
+/tp_models
+/zfnet

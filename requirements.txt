@@ -6,3 +6,5 @@ seaborn
 pydot
 graphviz
 scikit-image
+onnx
+onnx2keras
